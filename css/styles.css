@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* oznacza,że chcemy powtórzyć określony wzorzec kolumn trzy razy. W tym przypadku trzy kolumny a fr oznacza część dostępną w siatce.
+    Każda z kolumn ma mieć równe proporcje,każda z nich zajmuje jedną część dostępną w kontenerze. */
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+.gallery-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+}
+
