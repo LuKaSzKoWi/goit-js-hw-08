@@ -118,7 +118,7 @@ function onGalleryClick(event) {
 
   
   window.addEventListener('keydown', (event) => {
-    if (event.code === 'Escape') {znacznikiopis
+    if (event.code === 'Escape') {
       instance.close();
     }
   });
